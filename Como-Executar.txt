@@ -1,0 +1,9 @@
+suba o docker
+se for linux 
+docker run -it -v "$PWD":/usr/src phdcoder/flexbison
+
+se for windows
+docker run -it -v "%cd%:/usr/src" phdcoder/flexbison
+
+cd /usr/src
+bash run.sh

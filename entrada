@@ -1,0 +1,13 @@
+// 3 - while + if (if dentro do while)
+int i;
+i = 1;
+int v[4];
+v[0] = 10;
+while (i < 4) {
+    v[i] = v[i - 1] +1;
+    if (i % 2 == 0) {
+        print i;
+    }
+    i = i + 1;
+}
+print v[3];
